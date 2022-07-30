@@ -7,6 +7,15 @@
     margin: 0 auto;
 }
 
+.find-btn,
+.new-btn,
+.info-btn,
+.payment-btn,
+.edit-btn,
+.delete-btn {
+    width: 100%;
+}
+
 #payments-table tbody,
 #students-table tbody {
     display: table-caption;

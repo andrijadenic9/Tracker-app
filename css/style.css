@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.private-container {
+    margin: 0 auto;
+}
+
+#payments-table tbody,
+#students-table tbody {
+    display: table-caption;
+    height: 250px;
+    overflow-y: scroll;
+}
+
+#payments-table tbody tr,
+#students-table tbody tr {
+    display: inline-table;
+    width: -webkit-fill-available;
+}
+
+
+/** PAYMENTS */
+/*? THEAD */
+#payments-table thead tr th:nth-child(1) {
+    width: 25%;
+}
+#payments-table thead tr th:nth-child(2) {
+    width: 30%;
+}
+#payments-table thead tr th:nth-child(3) {
+    width: 18%;
+}
+#payments-table thead tr th:nth-child(4) {
+    width: 27%;
+}
+
+/*? TBODY */
+#payments-table tbody tr td:nth-child(1) {
+    width: 25%;
+}
+#payments-table tbody tr td:nth-child(2) {
+    width: 30%;
+}
+#payments-table tbody tr td:nth-child(3) {
+    width: 18%;
+}
+#payments-table tbody tr td:nth-child(4) {
+    width: 27%;
+}
+
+/** STUDENTS */
+/*? THEAD */
+#students-table thead tr th:nth-child(1) {
+    width: 20%;
+}
+#students-table thead tr th:nth-child(2) {
+    width: 30%;
+}
+#students-table thead tr th:nth-child(3) {
+    width: 50%;
+}
+
+/*? TBODY */
+#students-table tbody tr td:nth-child(1) {
+    width: 20%;
+}
+#students-table tbody tr td:nth-child(2) {
+    width: 30%;
+}
+
+.modal-body span {
+    margin: 0 0 5px 10px;
+    font-weight: 700;
+    color: tomato;
+    display: block;
+}
+
+.delete-modal-footer {
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+/** PAYMENT BTN */
+.payment-btn {
+    background-color: #7227a7;
+    border-color: #5A1F84;
+    color:#fff;
+}
+
+.payment-btn:hover {
+    background-color: #5A1F84;
+    border-color: #5A1F84; 
+    color:#fff;
+}
+
+.payment-btn:focus {
+    color: #fff;
+    background-color: #5A1F84;
+    border-color: #5A1F84;
+    outline: 0;
+    box-shadow:0 0 0 0.25rem rgb(182, 122, 225, .5);
+}
+
+.payment-btn:active {
+    color: #fff;
+    background-color: #7227a7;
+    border-color: #5A1F84;
+}

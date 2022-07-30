@@ -1,0 +1,98 @@
+@media (min-width: 250px) {
+    .me-auto {
+        margin-right: 0 !important;
+    }
+    #students-table {
+        margin-bottom: 3rem;
+    }
+}
+@media (min-width: 400px) {
+    .private-container {
+        max-width: 380px;
+    }
+    #payments-table tfoot tr th {
+        font-size: 10.5px;
+    }
+}
+@media (min-width: 515px) {
+    .private-container {
+        max-width: 500px;
+    }
+    #payments-table tfoot tr th {
+        font-size: 12.5px;
+    }
+}
+@media (min-width: 615px) {
+    .private-container {
+        max-width: 550px;
+    }
+    #payments-table tfoot tr th {
+        font-size: 14px;
+    }
+}
+@media (min-width: 700px) {
+    .private-container {
+        max-width: 650px;
+    }
+    #payments-table tfoot tr th {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 900px) {
+    .private-container {
+        max-width: 850px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .private-container {
+        max-width: 900px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .private-container {
+        max-width: 1100px;
+    }
+
+    .private-padding-left,
+    .private-padding-right {
+        padding: 0;
+    }
+}
+
+@media (min-width: 1400px) {
+    .private-container {
+        max-width: 1300px;
+    }
+    #students-table,
+    #payments-table {
+        margin-bottom: 0;
+    }
+    .private-padding-left {
+        padding-left: 30px;
+    }
+    .private-padding-right {
+        padding-right: 30px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .private-container {
+        max-width: 1400px;
+    }
+}
+
+@media (min-width: 1800px) {
+    .private-container {
+        max-width: 1600px;
+    }
+}
+
+@media (min-width: 2200px) {
+    .private-container {
+        max-width: 1800px;
+    }
+
+}

@@ -2,6 +2,7 @@
 An application that tracks the payments of existing students with a login form and possible user roles
 
 You can see the application from the point of view of the admin and the user, the approach is as follows:
+
 Admin role:
 email: admin@localhost.com
 password: admin

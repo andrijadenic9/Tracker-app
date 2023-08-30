@@ -2,8 +2,8 @@
 <?php require 'partials/navbar.php' ?>
 
 <div class="private-container">
-    <h1 class="mb-5 mt-5" style="text-transform:capitalize;"><?php echo $role ?> dashboard</h1>
-    <div class="row">
+    <!-- <h1 class="mb-5 mt-5" style="text-transform:capitalize;"><?php echo $role ?> dashboard</h1> -->
+    <div class="row mb-5 mt-5">
         <div class="private-padding-right col-xxl-6">
             <h3>Students</h3>
             <table id="students-table" class="table table-striped">

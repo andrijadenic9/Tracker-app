@@ -3,7 +3,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="navbar-brand" style="text-transform:capitalize;"><?php echo $admin_name ?></a>
+                    <a class="navbar-brand" style="text-transform:capitalize;"><?php echo $admin_name ?> dashboard</a>
                 </li>
             </ul>
         </div>
@@ -12,7 +12,7 @@
         </form>
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-                <a class="nav-link" href="logout.php">Logout</a>
+                <a class="nav-link" href="logout.php" style="font-weight: bold;">Logout</a>
             </li>
         </ul>
     </div>
